@@ -189,7 +189,7 @@ app.get('/api/debug/status', (req, res) => {
 // Configuration FedaPay
 const FEDAPAY_CONFIG = {
   secretKey: process.env.FEDAPAY_SECRET_KEY,
-  baseUrl: process.env.FEDAPAY_BASE_URL || 'https://api.fedapay.com/v1',
+  baseUrl: process.env.FEDAPAY_BASE_URL || 'https://api-sandbox.fedapay.com/v1',
   currency: process.env.FEDAPAY_CURRENCY || 'XOF',
   country: process.env.FEDAPAY_COUNTRY || 'BJ'
 };
